@@ -1,0 +1,35 @@
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-items: center
+}
+body{
+    background-image: url(./img.jpg);
+}
+h1{
+    color: white;
+}
+#frm{
+    width: 30%;
+    background-color: rgb(255, 255, 255,.2);
+    border-radius: 5px;
+    margin: 90px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0,0, .5)
+}
+
+#mail, #pass{    color: rgb(255,255,255,1);
+   
+    border: none;
+    border-radius: 2px;
+    background-color: lightsalmon;
+    text-align: initial;
+    font-family: system-ui;
+    margin: 3px;}
+
+    #button{    border: none;
+        border-radius: 2px;
+        color: white;
+        background-color: gray;
+    }
